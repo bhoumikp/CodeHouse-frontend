@@ -1,0 +1,11 @@
+.cardWrapper {
+    composes: cardWrapper from '../../../App.module.css';
+}
+
+.bottomParagraph {
+    composes: bottomParagraph from '../StepUsername/StepUsername.module.css';
+}
+
+.actionButtonWrap {
+    composes: actionButtonWrap from '../StepUsername/StepUsername.module.css';
+}
