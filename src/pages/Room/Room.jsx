@@ -20,6 +20,7 @@ const Room = () => {
 
     useEffect(() => {
         const fetchRoom = async () => {
+            console.log(document.cookie)
             const { data } = await getRoom(roomId);
             setRoom((prev) => data);
         };
